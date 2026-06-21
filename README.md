@@ -53,6 +53,8 @@ Ho replicato una delle analisi anche in Python con pandas, per confrontare i due
 - `ORDER BY` con `TOP` per i risultati limitati
 - Funzioni su date (`YEAR()`)
 - Gestione di dati storici (pattern data "9999-01-01" per indicare valori ancora attivi)
+- Python (pandas, matplotlib)
+- Visual Studio Code + Jupyter
 
 ## Strumenti
 
