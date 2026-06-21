@@ -47,6 +47,13 @@ Ho replicato una delle analisi anche in Python con pandas, per confrontare i due
 - `groupby()` con `mean()` per calcolare lo stipendio medio per ogni titolo
 - `sort_values()` per ordinare i risultati
 - Visualizzazione con `matplotlib` (grafico a barre)
+- ## Dashboard Power BI
+
+Ho creato una visualizzazione in Power BI per confermare visivamente l'analisi sullo stipendio medio per titolo.
+
+
+**Nota:** il file Power BI originale (.pbix) non è incluso nel repository per limiti di dimensione del file su GitHub.
+```
 
 **File:** `analisi_hr_python.ipynb`
 ```
