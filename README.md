@@ -35,10 +35,26 @@ Fonte: [SQL Practice Dataset - Kaggle]
 - `JOIN` su più tabelle
 - `GROUP BY` con funzioni di aggregazione (`COUNT`, `AVG`)
 - `WHERE` con condizioni multiple (`AND`)
+- ## Analisi in Python
+
+Ho replicato una delle analisi anche in Python con pandas, per confrontare i due approcci.
+
+**Analisi:** Stipendio medio per titolo/ruolo professionale
+
+**Tecniche Python/pandas utilizzate:**
+- `pd.read_csv()` per caricare i dati (employees, salaries, titles)
+- `merge()` per unire le tabelle titles e salaries tramite emp_no
+- `groupby()` con `mean()` per calcolare lo stipendio medio per ogni titolo
+- `sort_values()` per ordinare i risultati
+- Visualizzazione con `matplotlib` (grafico a barre)
+
+**File:** `analisi_hr_python.ipynb`
+```
 - `ORDER BY` con `TOP` per i risultati limitati
 - Funzioni su date (`YEAR()`)
 - Gestione di dati storici (pattern data "9999-01-01" per indicare valori ancora attivi)
 
 ## Strumenti
+
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
